@@ -4,11 +4,11 @@
 ##### The client, Louise, is an enterprising playwright. In a previous project, analysis was performed on a dataset of over 4000 Kickstarter crowdfunding campaigns to help Louise plan a successful crowdfunding campaign of her own for her play, Fever. The results of this analysis provided Louise with insights and information that enabled her play quickly come close to its fundraising goal of $12,000. She is now interested in finding out how successful or unsuccessful different campaigns were by comparing their launch dates and their funding goals. Specifically, are there distinct reasons that make one campaign more successful than another in relation to their launch dates and fundraising goals?
 ---
 ### Purpose
-##### The purpose of this project was to glean more specific details from the Kickstarter dataset to help Louise’s campaign be a successful one and to provide insights with date and charts to help her visualize the findings of campaign outcomes based on their launch dates and funding goals.
+##### The purpose of this project was to glean more specific details from the Kickstarter dataset in Excel to help Louise’s campaign be a successful one and to provide insights with date and charts to help her visualize the findings of campaign outcomes based on their launch dates and funding goals.
 ---
 ---
 ## Analysis and Challenges
-##### In order to dig deeper into the details regarding campaign outcomes based on launch data and funding goal, the first step in the analysis was to find out the launch dates of all theater projects. This was achieved by creating a new column in the Kickstarter data sheet called, “Years”. The YEAR()function was used to extract the year from the “Date Created Conversion” column.
+##### In order to dig deeper into the details regarding campaign outcomes based on launch data and funding goal, the first step in the analysis was to find out the launch dates of all theater projects. This was achieved by creating a new column in the Kickstarter data sheet called, “Years”. The Excel YEAR()function was used to extract the year from the “Date Created Conversion” column.
 ---
 ##### A pivot table was created and placed in a new sheet labeled, “Theater Outcomes by Launch Date”. The pivot table was sorted by “Parent Category” and then by “Years”.
 ---
@@ -42,12 +42,12 @@
 ---
 ##### To calculate the percentage of successful, failed and canceled projects, first the SUM() function was used to populate “Total Projects” column with the total number of successful, failed and canceled projects. Then the percentage was calculated for each row.
 ---
-##### Using the data compiled above, an Outcomes_vs_Goals line chart was created to illustrate the relationship between the goal-amount ranges on the x-axis and the percentage of successful, failed or canceled campaigns on the y-axis.
+##### Using the data compiled above, an Outcomes_vs_Goals line chart was created to illustrate the relationship between the goal-amount ranges on the x-axis and the percentage of successful, failed or canceled campaigns on the y-axis.https://github.com/Saymanning/Kickstarter-Analysis/blob/main/Resources/Outcomes_vs_goals.png
 ---
 ---
 ### Analysis of Outcomes Based on Launch Date
 ---
-##### According to the pivot chart seen here: Outcomes based on Launch date, the month with the highest number of successful campaigns is May, closely followed by June. This trend is easily visualized by the line chart here:
+##### According to the Theater_Outcomes_vs_Launch date chart created, the month with the highest number of successful campaigns is May, closely followed by June. This trend is easily visualized in the line chart here:https://github.com/Saymanning/Kickstarter-Analysis/blob/main/Resources/Theater_Outcomes_vs_Launch.png
 ##### The line chart also shows that the number of failed campaigns is consistent January to October. The months with the lowest number of successful campaign launches are November, December and January. December had almost the same number of successful and failed campaigns. Successful campaigns begin to trend up slightly in February, however the chart indicates the rate of successful campaigns launched doesn’t really begin to rise significantly until April.
 ---
 ---
