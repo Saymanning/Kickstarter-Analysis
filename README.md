@@ -17,7 +17,7 @@
 ##### To show only the data for theater projects, the “Parent Category” was filtered to “theater”. The outcomes were then sorted in descending order so “successful” shows first, since that is important information to Louise.
 ---
 ##### To help Louise visualize the theater outcomes based on their launch date.
-##### A line chart was created from the pivot table showing the number of successful, failed and canceled projects by month.
+##### A line chart was created from the pivot table showing the number of successful, failed and canceled projects by month.https://github.com/Saymanning/Kickstarter-Analysis/blob/main/Resources/Theater_Outcomes_vs_Launch.png
 ---
 ##### The second part of the analysis was to gather the data needed to visualize campaign outcomes based on funding goal amount.
 ---
