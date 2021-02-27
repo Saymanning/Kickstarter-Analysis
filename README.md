@@ -1,7 +1,7 @@
 # Kickstarting with Excel
 ---
 ## Overview of Project
-#####The client, Louise, is an enterprising playwright. In a previous project, analysis was performed on a dataset of over 4000 Kickstarter crowdfunding campaigns to help Louise plan a successful crowdfunding campaign of her own for her play, Fever. The results of this analysis provided Louise with insights and information that enabled her play quickly come close to its fundraising goal of $12,000. She is now interested in finding out how successful or unsuccessful different campaigns were by comparing their launch dates and their funding goals. Specifically, are there distinct reasons that make one campaign more successful than another in relation to their launch dates and fundraising goals?
+##### The client, Louise, is an enterprising playwright. In a previous project, analysis was performed on a dataset of over 4000 Kickstarter crowdfunding campaigns to help Louise plan a successful crowdfunding campaign of her own for her play, Fever. The results of this analysis provided Louise with insights and information that enabled her play quickly come close to its fundraising goal of $12,000. She is now interested in finding out how successful or unsuccessful different campaigns were by comparing their launch dates and their funding goals. Specifically, are there distinct reasons that make one campaign more successful than another in relation to their launch dates and fundraising goals?
 ---
 ### Purpose
 The purpose of this project was to glean more specific details from the Kickstarter dataset to help Louise’s campaign be a successful one and to provide insights with date and charts to help her visualize the findings of campaign outcomes based on their launch dates and funding goals.
