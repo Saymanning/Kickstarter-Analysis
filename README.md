@@ -25,30 +25,30 @@
 ##### Goal, Number successful, number failed, number canceled, Total Projects, Percentage successful, Percentage failed and Percentage canceled.
 ##### The dollar-amount ranges listed below were added to the Goal column.
 ---
-##### **Less than 1000
-##### **1000 to 4999
-##### **5000 to 9999
-##### **10000 to 14999
-##### **15000 to 19999
-##### **20000 to 24999
-##### **25000 to 29999
-##### **30000 to 34999
-##### **35000 to 39999
-##### **40000 to 44999
-##### **45000 to 49999
-##### **Greater than 50000
+##### Less than 1000
+##### 1000 to 4999
+##### 5000 to 9999
+##### 10000 to 14999
+##### 15000 to 19999
+##### 20000 to 24999
+##### 25000 to 29999
+##### 30000 to 34999
+##### 35000 to 39999
+##### 40000 to 44999
+##### 45000 to 49999
+##### Greater than 50000
 ---
 ##### In order to find and populate the number of successful, failed and canceled campaigns, the COUNTIFS() function was used by filtering on the columns “outcome” and “goal” on the Kickstarter sheet using the ranges above. Then filtered the “Subcategory” column by plays.
 ---
 ##### To calculate the percentage of successful, failed and canceled projects, first the SUM() function was used to populate “Total Projects” column with the total number of successful, failed and canceled projects. Then the percentage was calculated for each row.
 ---
-##### Using the date compiled above, an Outcomes_vs_Goals line chart was created to illustrate the relationship between the goal-amount ranges on the x-axis and the percentage of successful, failed or canceled campaigns on the y-axis.
+##### Using the data compiled above, an Outcomes_vs_Goals line chart was created to illustrate the relationship between the goal-amount ranges on the x-axis and the percentage of successful, failed or canceled campaigns on the y-axis.
 ---
 ---
 ### Analysis of Outcomes Based on Launch Date
 ---
-##### According to the pivot chart seen here: Outcomes based on Launch date, the month with the highest number of successful campaigns is May, closely followed by June. This trend is easily visualized by the line chart here:
-The line chart also shows that the number of failed campaigns is consistent January to October. The months with the lowest number of successful campaign launches are November, December and January. December had almost the same number of successful and failed campaigns. Successful campaigns begin to trend up slightly in February, however the chart indicates the rate of successful campaigns launched doesn’t really begin to rise significantly until April.
+##### According to the pivot chart seen here: Outcomes based on Launch date, the month with the highest number of successful campaigns is May, closely followed by June. This trend is easily visualized by the line chart here: (path/to/Theater_Outcomes_vs_launch.png)
+#### The line chart also shows that the number of failed campaigns is consistent January to October. The months with the lowest number of successful campaign launches are November, December and January. December had almost the same number of successful and failed campaigns. Successful campaigns begin to trend up slightly in February, however the chart indicates the rate of successful campaigns launched doesn’t really begin to rise significantly until April.
 ---
 ---
 ---
@@ -68,7 +68,7 @@ The line chart also shows that the number of failed campaigns is consistent Janu
 ---
 ---
 ##### It can be concluded that campaigns launched in May and June have the most successful outcomes. May and June are ideal for launching a successful campaign.
-It can also be concluded that a campaign is less likely of a success if it is launched in the months of November, December, January or February.  
+##### It can also be concluded that a campaign is less likely of a success if it is launched in the months of November, December, January or February.  
 ---
 ---
 ##### Based on the data compiled from campaigns with goal ranges between less than $1000 and $4999, these campaigns have the highest percentage of success. Campaigns with a goal in the range of $5000 to $14000 have only about a 50% chance of being successful. Campaigns with goals above $45000 were the least successful in reaching their goals.
