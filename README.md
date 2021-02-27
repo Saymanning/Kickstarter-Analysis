@@ -22,21 +22,21 @@
 ##### The second part of the analysis was to gather the data needed to visualize campaign outcomes based on funding goal amount.
 ---
 ##### A new sheet labeled “Outcomes Based on Goals” was created in the Kickstarter data sheet. The following columns were created in the new sheet:
-Goal, Number successful, number failed, number canceled, Total Projects, Percentage successful, Percentage failed and Percentage canceled.
-The dollar-amount ranges listed below were added to the Goal column.
+##### Goal, Number successful, number failed, number canceled, Total Projects, Percentage successful, Percentage failed and Percentage canceled.
+##### The dollar-amount ranges listed below were added to the Goal column.
 ---
-**Less than 1000
-1000 to 4999
-5000 to 9999
-10000 to 14999
-15000 to 19999
-20000 to 24999
-25000 to 29999
-30000 to 34999
-35000 to 39999
-40000 to 44999
-45000 to 49999
-Greater than 50000
+##### **Less than 1000
+##### **1000 to 4999
+##### **5000 to 9999
+##### **10000 to 14999
+##### **15000 to 19999
+##### **20000 to 24999
+##### **25000 to 29999
+##### **30000 to 34999
+##### **35000 to 39999
+##### **40000 to 44999
+##### **45000 to 49999
+##### **Greater than 50000
 ---
 ##### In order to find and populate the number of successful, failed and canceled campaigns, the COUNTIFS() function was used by filtering on the columns “outcome” and “goal” on the Kickstarter sheet using the ranges above. Then filtered the “Subcategory” column by plays.
 ---
