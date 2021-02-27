@@ -47,8 +47,8 @@
 ---
 ### Analysis of Outcomes Based on Launch Date
 ---
-##### According to the pivot chart seen here: Outcomes based on Launch date, the month with the highest number of successful campaigns is May, closely followed by June. This trend is easily visualized by the line chart here: (path/to/Theater_Outcomes_vs_launch.png)
-#### The line chart also shows that the number of failed campaigns is consistent January to October. The months with the lowest number of successful campaign launches are November, December and January. December had almost the same number of successful and failed campaigns. Successful campaigns begin to trend up slightly in February, however the chart indicates the rate of successful campaigns launched doesn’t really begin to rise significantly until April.
+##### According to the pivot chart seen here: Outcomes based on Launch date, the month with the highest number of successful campaigns is May, closely followed by June. This trend is easily visualized by the line chart here:
+##### The line chart also shows that the number of failed campaigns is consistent January to October. The months with the lowest number of successful campaign launches are November, December and January. December had almost the same number of successful and failed campaigns. Successful campaigns begin to trend up slightly in February, however the chart indicates the rate of successful campaigns launched doesn’t really begin to rise significantly until April.
 ---
 ---
 ---
